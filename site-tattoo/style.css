@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: 'Tattoo2';
-    src: url(../site/fontes/Tattoo2.ttf);
+    src: url(../site-tattoo/fontes/Tattoo2.ttf);
 }
 
 :root{
@@ -10,6 +10,10 @@
     --cor1: #C57B57;
     --cor2: #8E7DBE;
     --cor3: #67697C;
+
+}
+
+body{
 
 }
 
@@ -69,4 +73,30 @@ nav > a{
 nav > a:hover{
     background-color: #dfd4b0;
     color: #2b2821
+}
+
+main{
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 1px 0px 10px 0px rgba(0, 0, 0, 0.295);
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    text-align: center;
+    
+}
+
+main h1{
+    margin: 15px 0px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: normal;
+
+}
+
+img{
+    border-radius: 10px;
 }
